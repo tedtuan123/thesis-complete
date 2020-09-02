@@ -12,7 +12,7 @@ Copy .war to tomcat server
 ```
 cp target/complete.war /Users/nguyenduy/Desktop/MyApp/apache-tomcat-9.0.34/webapps
 
+cd /Users/nguyenduy/Desktop/MyApp/apache-tomcat-9.0.34
 ./catalina.sh stop 
-
 ./catalina.sh start
 ```
