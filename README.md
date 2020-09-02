@@ -10,7 +10,7 @@ mvn package
 
 Copy .war to tomcat server
 ```
-cp complete.war /Users/nguyenduy/Desktop/MyApp/apache-tomcat-9.0.34/webapps
+cp target/complete.war /Users/nguyenduy/Desktop/MyApp/apache-tomcat-9.0.34/webapps
 
 ./catalina.sh stop 
 
